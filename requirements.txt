@@ -1,0 +1,25 @@
+# 基础框架
+python>=3.8,<3.12
+streamlit==1.49.0
+python-multipart==0.0.20
+
+# YOLOv11核心
+torch==2.3.1
+torchvision==0.18.1
+torchaudio==2.3.1
+
+# 图像/视频处理
+opencv-python==4.10.0.84
+numpy==1.26.4
+pillow>=10.0.0
+
+# 可视化与统计
+matplotlib==3.9.3
+pandas==2.2.3
+# seaborn==0.13.2  # 可选，按需保留
+
+# 辅助工具
+tqdm==4.67.1
+requests>=2.32.0
+certifi
+urllib3
